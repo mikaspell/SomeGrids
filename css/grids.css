@@ -1,0 +1,68 @@
+/* Some Grids by Mika Spell v 0.0.1 */
+
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.box:before, .box:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.box:after {
+  clear: both;
+}
+.box [class*=sgrid] {
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.sgrid-1 {
+  width: 60px;
+}
+
+.sgrid-2 {
+  width: 140px;
+}
+
+.sgrid-3 {
+  width: 220px;
+}
+
+.sgrid-4 {
+  width: 300px;
+}
+
+.sgrid-5 {
+  width: 380px;
+}
+
+.sgrid-6 {
+  width: 460px;
+}
+
+.sgrid-7 {
+  width: 540px;
+}
+
+.sgrid-8 {
+  width: 620px;
+}
+
+.sgrid-9 {
+  width: 700px;
+}
+
+.sgrid-10 {
+  width: 780px;
+}
+
+.sgrid-11 {
+  width: 860px;
+}
+
+.sgrid-12 {
+  width: 940px;
+}
