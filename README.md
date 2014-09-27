@@ -1,7 +1,13 @@
-SomeGrids
+SomeGrids v 0.0.5
 =========
 
 Simple, Awesome &amp; Fast
 
 
-Anyway, this is pre-party yet
+Wow! This grids have display types
+
+* **Inline**
+* **Float**
+* **Flex**
+
+And you know that this mean, huh? =)
