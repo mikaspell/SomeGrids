@@ -1,20 +1,41 @@
-/* Some Grids by Mika Spell v 0.0.1 */
+/* Some Grids by Mika Spell v 0.0.5*/
 
 .wrapper {
   width: 960px;
   margin: 0 auto;
 }
 
-.box:before, .box:after {
+.box.inline [class*=sgrid] {
+  display: inline;
+  zoom: 1;
+  display: inline-block;
+  margin-left: 6px;
+  margin-right: 10px;
+}
+.box.inline [class*=sgrid]:first-child {
+  margin-left: 10px;
+}
+.box.float:before, .box.float:after {
   display: table;
   content: "";
   line-height: 0;
 }
-.box:after {
+.box.float:after {
   clear: both;
 }
-.box [class*=sgrid] {
+.box.float [class*=sgrid] {
   float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.box.flex {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  align-content: stretch;
+}
+.box.flex [class*=sgrid] {
   margin-left: 10px;
   margin-right: 10px;
 }
