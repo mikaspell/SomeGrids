@@ -1,5 +1,5 @@
-SomeGrids v 0.0.5
-=========
+# SomeGrids <sup>v 0.0.5</sup> 
+
 
 Simple, Awesome &amp; Fast
 
