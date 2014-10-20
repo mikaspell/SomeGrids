@@ -1,19 +1,22 @@
 /* Some Grids by Mika Spell v 0.0.5*/
-
 .wrapper {
   width: 960px;
   margin: 0 auto;
 }
 
+.box {
+  width: 100%;
+}
+.box.inline {
+  padding-left: 1.04167%;
+}
 .box.inline [class*=sgrid] {
   display: inline;
   zoom: 1;
   display: inline-block;
-  margin-left: 6px;
-  margin-right: 10px;
-}
-.box.inline [class*=sgrid]:first-child {
-  margin-left: 10px;
+  margin-left: 0.625%;
+  margin-right: 1.04167%;
+  vertical-align: top;
 }
 .box.float:before, .box.float:after {
   display: table;
@@ -25,65 +28,77 @@
 }
 .box.float [class*=sgrid] {
   float: left;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 1.04167%;
+  margin-right: 1.04167%;
 }
 .box.flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  align-items: stretch;
-  align-content: stretch;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-align-content: stretch;
+      -ms-flex-line-pack: stretch;
+          align-content: stretch;
 }
 .box.flex [class*=sgrid] {
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 1.04167%;
+  margin-right: 1.04167%;
 }
 
 .sgrid-1 {
-  width: 60px;
+  width: 6.25%;
 }
 
 .sgrid-2 {
-  width: 140px;
+  width: 14.58333%;
 }
 
 .sgrid-3 {
-  width: 220px;
+  width: 22.91667%;
 }
 
 .sgrid-4 {
-  width: 300px;
+  width: 31.25%;
 }
 
 .sgrid-5 {
-  width: 380px;
+  width: 39.58333%;
 }
 
 .sgrid-6 {
-  width: 460px;
+  width: 47.91667%;
 }
 
 .sgrid-7 {
-  width: 540px;
+  width: 56.25%;
 }
 
 .sgrid-8 {
-  width: 620px;
+  width: 64.58333%;
 }
 
 .sgrid-9 {
-  width: 700px;
+  width: 72.91667%;
 }
 
 .sgrid-10 {
-  width: 780px;
+  width: 81.25%;
 }
 
 .sgrid-11 {
-  width: 860px;
+  width: 89.58333%;
 }
 
 .sgrid-12 {
-  width: 940px;
+  width: 97.91667%;
 }

@@ -3,7 +3,7 @@
   margin-top: 70px; }
 
 .box {
-  padding-top: 10px; }
+  padding-top: 16px; }
   .box:nth-child(odd) {
     background: #eaeaea; }
   .box:nth-child(even) {
@@ -12,9 +12,8 @@
 [class*=sgrid] {
   background: #ddd;
   text-align: center;
-  padding: 20px 0;
-  margin-bottom: 10px;
-  height: 20px;
+  padding: 15px 0;
+  margin-bottom: 16px;
   outline: 1px solid #989898; }
 
 h1 {
