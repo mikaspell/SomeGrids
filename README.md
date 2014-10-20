@@ -1,10 +1,10 @@
-# SomeGrids <sup>v 0.0.5</sup> 
+# SomeGrids <sup>v 0.8</sup> 
 
+####Simple, Awesome &amp; Fast
 
-Simple, Awesome &amp; Fast
+_Wow! This grids have display types_
 
-
-Wow! This grids have display types
+##### Responsive ready on every type
 
 * **Inline**
 * **Float**
