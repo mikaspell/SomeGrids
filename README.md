@@ -6,9 +6,9 @@ _Wow! This grids have display types_
 
 ##### Responsive ready on every type
 
-* **Inline**
+* **Inline** <sup>partial support</sup>
 * **Float**
-* **Flex**
+* **Flex** <sup>partial support</sup>
 
 And you know that this mean, huh? =)
 
