@@ -12,6 +12,12 @@
        box-sizing: border-box;
 }
 
+.box.flex .sgrid-1, .box.flex .sgrid-2, .box.flex .sgrid-3, .box.flex .sgrid-4, .box.flex .sgrid-5, .box.flex .sgrid-6, .box.flex .sgrid-7, .box.flex .sgrid-8, .box.flex .sgrid-9, .box.flex .sgrid-10, .box.flex .sgrid-11, .box.flex .sgrid-12 {
+  -webkit-flex: 1 0 auto;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+}
+
 .wrapper {
   width: 940px;
   margin-left: auto;
