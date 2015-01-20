@@ -1,4 +1,13 @@
 /* Some Grids by Mika Spell v 1.0.0 */
+* {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+}
+*:before, *:after {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+}
+
 .box .sgrid-1, .box .sgrid-2, .box .sgrid-3, .box .sgrid-4, .box .sgrid-5, .box .sgrid-6, .box .sgrid-7, .box .sgrid-8, .box .sgrid-9, .box .sgrid-10, .box .sgrid-11, .box .sgrid-12 {
   min-height: 1px;
   position: relative;
@@ -6,10 +15,16 @@
   padding-right: 10px;
 }
 
+.box.inline .sgrid-1, .box.inline .sgrid-2, .box.inline .sgrid-3, .box.inline .sgrid-4, .box.inline .sgrid-5, .box.inline .sgrid-6, .box.inline .sgrid-7, .box.inline .sgrid-8, .box.inline .sgrid-9, .box.inline .sgrid-10, .box.inline .sgrid-11, .box.inline .sgrid-12 {
+  display: inline;
+  zoom: 1;
+  display: inline-block;
+  margin-left: -4px;
+  vertical-align: top;
+}
+
 .box.float .sgrid-1, .box.float .sgrid-2, .box.float .sgrid-3, .box.float .sgrid-4, .box.float .sgrid-5, .box.float .sgrid-6, .box.float .sgrid-7, .box.float .sgrid-8, .box.float .sgrid-9, .box.float .sgrid-10, .box.float .sgrid-11, .box.float .sgrid-12 {
   float: left;
-  -moz-box-sizing: border-box;
-       box-sizing: border-box;
 }
 
 .box.flex .sgrid-1, .box.flex .sgrid-2, .box.flex .sgrid-3, .box.flex .sgrid-4, .box.flex .sgrid-5, .box.flex .sgrid-6, .box.flex .sgrid-7, .box.flex .sgrid-8, .box.flex .sgrid-9, .box.flex .sgrid-10, .box.flex .sgrid-11, .box.flex .sgrid-12 {
@@ -31,14 +46,7 @@
   margin-right: -10px;
 }
 .box.inline {
-  padding-left: 2.1276595745%;
-}
-.box.inline [class*=sgrid] {
-  display: inline;
-  zoom: 1;
-  display: inline-block;
-  margin-left: -4px;
-  vertical-align: top;
+  padding-left: 8px;
 }
 .box.float {
   *zoom: 1;
@@ -116,94 +124,4 @@
 
 .sgrid-12 {
   width: 100%;
-}
-
-/* Left margin */
-.pre-1 {
-  margin-left: 9.3971631206% !important;
-}
-
-.pre-2 {
-  margin-left: 17.7304964539% !important;
-}
-
-.pre-3 {
-  margin-left: 26.0638297872% !important;
-}
-
-.pre-4 {
-  margin-left: 34.3971631206% !important;
-}
-
-.pre-5 {
-  margin-left: 42.7304964539% !important;
-}
-
-.pre-6 {
-  margin-left: 51.0638297872% !important;
-}
-
-.pre-7 {
-  margin-left: 59.3971631206% !important;
-}
-
-.pre-8 {
-  margin-left: 67.7304964539% !important;
-}
-
-.pre-9 {
-  margin-left: 76.0638297872% !important;
-}
-
-.pre-10 {
-  margin-left: 84.3971631206% !important;
-}
-
-.pre-11 {
-  margin-left: 92.7304964539% !important;
-}
-
-/* Right margin */
-.post-1 {
-  margin-right: 9.3971631206% !important;
-}
-
-.post-2 {
-  margin-right: 17.7304964539% !important;
-}
-
-.post-3 {
-  margin-right: 26.0638297872% !important;
-}
-
-.post-4 {
-  margin-right: 34.3971631206% !important;
-}
-
-.post-5 {
-  margin-right: 42.7304964539% !important;
-}
-
-.post-6 {
-  margin-right: 51.0638297872% !important;
-}
-
-.post-7 {
-  margin-right: 59.3971631206% !important;
-}
-
-.post-8 {
-  margin-right: 67.7304964539% !important;
-}
-
-.post-9 {
-  margin-right: 76.0638297872% !important;
-}
-
-.post-10 {
-  margin-right: 84.3971631206% !important;
-}
-
-.post-11 {
-  margin-right: 92.7304964539% !important;
 }
