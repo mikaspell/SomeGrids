@@ -1,4 +1,4 @@
-/* Some Grids by Mika Spell v 1.0.0 */
+/* Some Grids by Mika Spell v 1.1.0 */
 * {
   -moz-box-sizing: border-box;
        box-sizing: border-box;
@@ -124,4 +124,92 @@
 
 .sgrid-12 {
   width: 100%;
+}
+
+.pre-1 {
+  margin-left: 8.3333333333%;
+}
+
+.post-1 {
+  margin-right: 8.3333333333%;
+}
+
+.pre-2 {
+  margin-left: 16.6666666667%;
+}
+
+.post-2 {
+  margin-right: 16.6666666667%;
+}
+
+.pre-3 {
+  margin-left: 25%;
+}
+
+.post-3 {
+  margin-right: 25%;
+}
+
+.pre-4 {
+  margin-left: 33.3333333333%;
+}
+
+.post-4 {
+  margin-right: 33.3333333333%;
+}
+
+.pre-5 {
+  margin-left: 41.6666666667%;
+}
+
+.post-5 {
+  margin-right: 41.6666666667%;
+}
+
+.pre-6 {
+  margin-left: 50%;
+}
+
+.post-6 {
+  margin-right: 50%;
+}
+
+.pre-7 {
+  margin-left: 58.3333333333%;
+}
+
+.post-7 {
+  margin-right: 58.3333333333%;
+}
+
+.pre-8 {
+  margin-left: 66.6666666667%;
+}
+
+.post-8 {
+  margin-right: 66.6666666667%;
+}
+
+.pre-9 {
+  margin-left: 75%;
+}
+
+.post-9 {
+  margin-right: 75%;
+}
+
+.pre-10 {
+  margin-left: 83.3333333333%;
+}
+
+.post-10 {
+  margin-right: 83.3333333333%;
+}
+
+.pre-11 {
+  margin-left: 91.6666666667%;
+}
+
+.post-11 {
+  margin-right: 91.6666666667%;
 }

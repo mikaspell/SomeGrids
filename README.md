@@ -1,4 +1,4 @@
-# SomeGrids <sup>v 1.0.0</sup> 
+# SomeGrids <sup>v 1.1.0</sup> 
 
 ####Simple, Awesome &amp; Fast
 
