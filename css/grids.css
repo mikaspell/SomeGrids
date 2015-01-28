@@ -19,7 +19,7 @@
   display: inline;
   zoom: 1;
   display: inline-block;
-  margin-left: -4px;
+  margin-right: -4px;
   vertical-align: top;
 }
 
@@ -44,9 +44,6 @@
 .box {
   margin-left: -10px;
   margin-right: -10px;
-}
-.box.inline {
-  padding-left: 8px;
 }
 .box.float {
   *zoom: 1;
