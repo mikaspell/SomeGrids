@@ -1,4 +1,4 @@
-# SomeGrids <sup>v 1.1.0</sup> 
+# SomeGrids <sup>v 1.1.1</sup> 
 
 ####Simple, Awesome &amp; Fast
 
@@ -6,9 +6,9 @@ _Wow! This grids have display types_
 
 ##### Responsive ready on every type
 
-* **Inline** <sup>partial support</sup>
+* **Inline**
 * **Float**
-* **Flex** <sup>partial support</sup>
+* **Flex**
 
 And you know that this mean, huh? =)
 
