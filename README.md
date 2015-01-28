@@ -23,7 +23,7 @@ And you know that this mean, huh? =)
 </div>
 ```
 
-## Pre-grid (**currently does not work**)
+## Pre-grid
 
 Move columns to the right using ```.pre-*``` classes. Each class increases the left margin of a column by a whole column. 
 For example, ```.pre-3``` moves ```.sgrid-*``` over three columns.
@@ -37,7 +37,7 @@ For example, ```.pre-3``` moves ```.sgrid-*``` over three columns.
 </div>
 ```
 
-## Post-grid (**currently does not work**)
+## Post-grid
 
 And you may move columns to the left using ```.post-*``` classes. Also each class increases the right margin of a column by a whole column.
 For example, ```.post-5``` moves ```.sgrid-*``` over five columns.
