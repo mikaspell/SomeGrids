@@ -13,12 +13,11 @@
   background: #ccc;
 }
 
-[class*=sgrid] div {
+[class*=sgrid] > div {
   background: #ddd;
   text-align: center;
   padding: 15px 0;
   margin-bottom: 16px;
-  outline: 1px solid #989898;
 }
 
 h1 {
