@@ -1,0 +1,154 @@
+/* Some Grids by Mika Spell v 1.1.2 */
+
+// This is grids calculator 
+
+// $width - width of your site
+// $grids - number of columns
+// $gutter - the width of the outer indentation in each column  (margin-left & margin-right)
+
+$width: 940px;
+$grids: 12;
+$gutter: 10px;
+
+* {
+
+	box-sizing: border-box;
+
+	&:before, &:after {
+
+		box-sizing: border-box;
+	}
+}
+
+@mixin clearfix {
+
+  *zoom: 1;
+
+	&:before, &:after {
+
+    display: table;
+    content: "";
+    line-height: 0;
+	}
+
+	&:after {
+		
+		clear: both;
+	}
+}
+
+.wrapper {
+
+	width: $width;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: $gutter;
+	padding-right: $gutter;
+}
+
+.box {
+
+	margin-left: -$gutter;
+	margin-right: -$gutter;	
+}
+
+%for-grids {
+
+	min-height: 1px;
+	position: relative;
+	padding-left: $gutter;
+	padding-right: $gutter;
+}
+
+@for $colNum from 1 through ($grids) {
+
+	.sgrid-#{$colNum} {
+
+		@extend %for-grids;
+	}
+}
+
+%inline-type {
+
+	display: inline;
+	zoom: 1;
+	display: inline-block;
+	margin-right: -4px;
+	vertical-align: top;
+}
+
+%float-type {
+
+	float: left;
+}
+
+%flex-type {
+
+	flex: 1 0 auto;
+}
+
+
+.inline {
+
+    @for $colNum from 1 through ($grids) {
+
+		> .sgrid-#{$colNum} {
+
+			@extend %inline-type;
+		}
+	}
+}
+
+.float {
+
+	@include clearfix;
+
+	@for $colNum from 1 through ($grids) {
+
+		> .sgrid-#{$colNum} {
+
+			@extend %float-type;
+		}
+	}
+}
+
+.flex {
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: stretch;
+
+    @for $colNum from 1 through ($grids) {
+
+		> .sgrid-#{$colNum} {
+
+			@extend %flex-type;
+		}
+	}
+}
+
+
+/* Grid system */
+
+@for $i from 1 through $grids {
+
+    .sgrid-#{$i} {
+
+       width: (100% / $grids) * $i;
+    }
+}
+
+@for $i from 1 through ($grids - 1) {	
+
+    .pre-#{$i} {
+
+		margin-left: (100% / $grids) * $i;
+	}
+
+    .post-#{$i} {
+
+		margin-right: (100% / $grids) * $i;
+	}
+}
