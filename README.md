@@ -26,6 +26,8 @@ aaand responsive ready on every type
 </div>
 ```
 
+> float or inline or flex
+
 ## Pre-grid
 
 Move columns to the right using ```.pre-*``` classes. Each class increases the left margin of a column by a whole column. 
