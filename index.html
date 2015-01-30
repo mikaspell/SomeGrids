@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>Somegrids by mikaspell</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1>Somegrids</h1>
+        <h2>Simple, Awesome &amp; Fast</h2>
+        <a href="https://github.com/mikaspell/SomeGrids" class="button"><small>View project on</small> GitHub</a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1>
+<a id="somegrids-v-112" class="anchor" href="#somegrids-v-112" aria-hidden="true"><span class="octicon octicon-link"></span></a>SomeGrids <sup>v 1.1.2</sup>
+</h1>
+
+<p>This grid is made on different types of building columns , allowing automatic output elements using cms (eg output of goods in the category of online store) becomes simple as cheese =)</p>
+
+<p><em>Sooooo, <strong>SomeGrids</strong> have display types:</em></p>
+
+<ul>
+<li><strong>Inline</strong></li>
+<li><strong>Float</strong></li>
+<li><strong>Flex</strong></li>
+</ul>
+
+<p>aaand responsive ready on every type</p>
+
+<blockquote>
+<p>And you know that this mean, huh? =)</p>
+</blockquote>
+
+<h2>
+<a id="the-size-of-the-compiled-css-in-expanded-style-344kb" class="anchor" href="#the-size-of-the-compiled-css-in-expanded-style-344kb" aria-hidden="true"><span class="octicon octicon-link"></span></a>The size of the compiled css in expanded style 3.44kb</h2>
+
+<h2>
+<a id="basic-grid-html" class="anchor" href="#basic-grid-html" aria-hidden="true"><span class="octicon octicon-link"></span></a>Basic Grid HTML</h2>
+
+<pre><code>&lt;div class="wrapper"&gt;
+  &lt;div class="box float||inline||flex"&gt;
+    &lt;div class="sgrid-6"&gt;Something&lt;/div&gt;
+    &lt;div class="sgrid-6"&gt;Something else&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+
+<blockquote>
+<p>float or inline or flex</p>
+</blockquote>
+
+<h2>
+<a id="pre-grid" class="anchor" href="#pre-grid" aria-hidden="true"><span class="octicon octicon-link"></span></a>Pre-grid</h2>
+
+<p>Move columns to the right using <code>.pre-*</code> classes. Each class increases the left margin of a column by a whole column. 
+For example, <code>.pre-3</code> moves <code>.sgrid-*</code> over three columns.</p>
+
+<pre><code>&lt;div class="wrapper"&gt;
+  &lt;div class="box float||inline||flex"&gt;
+    &lt;div class="sgrid-4 pre-2"&gt;Something&lt;/div&gt;
+    &lt;div class="sgrid-3 pre-3"&gt;Something else&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+
+<h2>
+<a id="post-grid" class="anchor" href="#post-grid" aria-hidden="true"><span class="octicon octicon-link"></span></a>Post-grid</h2>
+
+<p>And you may move columns to the left using <code>.post-*</code> classes. Also each class increases the right margin of a column by a whole column.
+For example, <code>.post-5</code> moves <code>.sgrid-*</code> over five columns.</p>
+
+<pre><code>&lt;div class="wrapper"&gt;
+  &lt;div class="box float||inline||flex"&gt;
+    &lt;div class="sgrid-1 post-5"&gt;Something&lt;/div&gt;
+    &lt;div class="sgrid-4 post-2"&gt;Something else&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+
+<h2>
+<a id="nested-columns" class="anchor" href="#nested-columns" aria-hidden="true"><span class="octicon octicon-link"></span></a>Nested columns</h2>
+
+<p>To nest your content with the default grid, add a new <code>.box</code> with columns type <code>inline||float||flex</code> and set of <code>.sgrid-*</code> columns within an existing <code>.sgrid-*</code> column. Nested rows should include a set of columns that add up to 12 or fewer (it is not required that you use all 12 available columns).</p>
+
+<blockquote>
+<p>I recommend nest:</p>
+
+<ul>
+<li>inline-columns to float-column</li>
+<li>float-columns to float-column</li>
+</ul>
+</blockquote>
+
+<pre><code>&lt;div class="wrapper"&gt;
+  &lt;div class="box float"&gt;
+    &lt;div class="sgrid-3"&gt;Something&lt;/div&gt;
+    &lt;div class="sgrid-9"&gt;
+      Parent column .sgrid-9
+      &lt;div class="box inline"&gt;
+        &lt;div class="sgrid-6"&gt;Nested columns .sgrid-6&lt;/div&gt;
+        &lt;div class="sgrid-6"&gt;Nested columns .sgrid-6&lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+
+<h2>
+<a id="simple-awesome--fast" class="anchor" href="#simple-awesome--fast" aria-hidden="true"><span class="octicon octicon-link"></span></a>Simple, Awesome &amp; Fast</h2>
+
+<p>Oh, all this free as snow in your pants</p>
+        </section>
+
+        <aside id="sidebar">
+          <a href="https://github.com/mikaspell/SomeGrids/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/mikaspell/SomeGrids/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/mikaspell/SomeGrids"></a> is maintained by <a href="https://github.com/mikaspell">mikaspell</a>.</p>
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+  
+  </body>
+</html>
