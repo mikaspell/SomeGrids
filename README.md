@@ -1,4 +1,4 @@
-# SomeGrids <sup>v 1.1.2</sup> 
+# SomeGrids <sup>v 1.1.3</sup> 
 
 This grid is made on different types of building columns , allowing automatic output elements using cms (eg output of goods in the category of online store) becomes simple as cheese =)
 
