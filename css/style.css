@@ -1,0 +1,117 @@
+/* Ubuntu Medium */
+@font-face {
+  font-family: 'UbuntuMedium';
+  src: url("../fonts/ubuntu-r.eot");
+  src: url("../fonts/ubuntu-r.eot?#iefix") format("embedded-opentype"), url("../fonts/ubuntu-r.woff") format("woff"), url("../fonts/ubuntu-r.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'UbuntuMediumItalic';
+  src: url("../fonts/ubuntu-mi.eot");
+  src: url("../fonts/ubuntu-mi.eot?#iefix") format("embedded-opentype"), url("../fonts/ubuntu-mi.woff") format("woff"), url("../fonts/ubuntu-mi.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+body {
+  background: url(../images/noisy.png) 0 0 repeat; }
+
+h1, h2, h3 {
+  margin-top: 0;
+  margin-bottom: 20px; }
+
+header {
+  background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
+  color: #fff;
+  padding: 40px 0; }
+
+.logo__title {
+  font-family: 'UbuntuMedium';
+  font-size: 45px; }
+.logo__slogan {
+  font-family: 'UbuntuMediumItalic';
+  font-size: 18px; }
+
+.see-on-gh {
+  display: block;
+  background: transparent url(../images/github-button.png) 0 0 no-repeat;
+  width: 202px;
+  height: 80px;
+  padding-top: 22px;
+  padding-left: 70px;
+  text-decoration: none;
+  color: #fff;
+  font-family: 'UbuntuMediumItalic';
+  line-height: 1.2;
+  font-size: 12px; }
+  .see-on-gh span {
+    font-family: 'UbuntuMedium';
+    font-size: 24px; }
+
+section {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 1px 1px #ccc; }
+  section h3 {
+    border-left: 3px solid #000;
+    padding-top: 4px;
+    padding-left: 10px; }
+
+.pre {
+  padding: 15px;
+  padding-left: 30px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f7f7f7;
+  border: 1px solid #e8e8e8;
+  border-radius: 3px; }
+
+.project-info {
+  margin-top: 20px;
+  margin-left: 10px; }
+  .project-info.js-scrolledMenu {
+    position: fixed;
+    top: 0; }
+
+.button {
+  display: block;
+  width: 200px;
+  height: 80px;
+  padding-top: 20px;
+  padding-left: 65px;
+  color: #fff;
+  font-family: 'UbuntuMediumItalic';
+  line-height: 1.2;
+  font-size: 12px;
+  background: transparent url(../images/download-button.png) 0 0 no-repeat;
+  text-decoration: none;
+  margin-bottom: 20px; }
+  .button p {
+    margin: 0;
+    font-family: 'UbuntuMedium';
+    font-size: 24px; }
+
+.code-title, .code-info {
+  margin: 0;
+  padding: 5px;
+  padding-left: 20px;
+  background: #358ccb;
+  color: #fff;
+  font-family: 'UbuntuMedium'; }
+
+.demo {
+  margin-bottom: 20px; }
+  .demo-item {
+    background: #ccc;
+    text-align: center; }
+    .demo-item--sub {
+      background: #ff0000 !important; }
+  .demo .float .demo-item {
+    padding: 30px 0 25px; }
+
+span.demo-item, span.demo-item--sub {
+  display: inline-block;
+  content: '';
+  width: 20px;
+  height: 13px;
+  border: 1px solid #fff; }
