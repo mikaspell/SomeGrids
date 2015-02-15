@@ -26,6 +26,7 @@
   position: relative;
   padding-left: 10px;
   padding-right: 10px;
+  margin-bottom: 20px;
 }
 
 .inline > .sgrid-1, .inline > .sgrid-2, .inline > .sgrid-3, .inline > .sgrid-4, .inline > .sgrid-5, .inline > .sgrid-6, .inline > .sgrid-7, .inline > .sgrid-8, .inline > .sgrid-9, .inline > .sgrid-10, .inline > .sgrid-11, .inline > .sgrid-12 {
@@ -33,7 +34,6 @@
   zoom: 1;
   display: inline-block;
   margin-right: -4.4px;
-  margin-bottom: 10px;
   vertical-align: top;
 }
 
