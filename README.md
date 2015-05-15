@@ -12,10 +12,13 @@ _Sooooo, **SomeGrids** have display types:_
 
 aaand responsive ready on every type
 
-> And you know that this mean, huh? =)
+##### The size of the compiled css in expanded style 3.44kb
 
+## Install
 
-## The size of the compiled css in expanded style 3.44kb
+Installation is very simple:
+
+```bower install some-grids```
 
 ## Basic Grid HTML
 
