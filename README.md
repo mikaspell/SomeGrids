@@ -1,4 +1,4 @@
-# SomeGrids <sup>v 1.1.3</sup> 
+# SomeGrids <sup>v 1.2.9</sup> 
 
 demo page - http://mikaspell.github.io/SomeGrids/
 
@@ -46,6 +46,7 @@ For example, ```.pre-3``` moves ```.sgrid-*``` over three columns.
   </div>
 </div>
 ```
+>  Work when not adaptive grids
 
 ## Post-grid
 
@@ -60,6 +61,7 @@ For example, ```.post-5``` moves ```.sgrid-*``` over five columns.
   </div>
 </div>
 ```
+>  Work when not adaptive grids
 
 ## Nested columns
 
@@ -83,6 +85,11 @@ To nest your content with the default grid, add a new ```.box``` with columns ty
   </div>
 </div>
 ```
+
+## Adaptive <sup style="color:red">NEW</sup>
+
+Haven't description, but this work - checkout!!!
+
 ##Simple, Awesome &amp; Fast
 
 <p style="text-align:center">Oh, all this free as snow in your pants</p>
